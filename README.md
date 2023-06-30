@@ -7,4 +7,8 @@ Packages needed for postgresSql:
 - Express and Node for the middleware. (https://expressjs.com/)
 
 Steps needed in order to read data from dvdrental
-- Create Express endpoints that use postgres.js in order to interact with the postgress DB.
+- Front end will make a request.
+- Express will process the request.
+- postgres.js will make calls to the backend use sql query strings in order to read data from dvdrental.
+- postgres.js will return the data as a json object.
+- 
