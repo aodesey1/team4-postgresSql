@@ -27,4 +27,4 @@ Steps needed in order to read data from dvdrental
 - Express will process the request.
 - postgres.js will make calls to the backend use sql query strings in order to read data from dvdrental.
 - postgres.js will return the data as a json object.
-- 
+- Website may also optionally be hosted on an AWS S3 bucket
